@@ -1,0 +1,18 @@
+2023/03/09-13:28:28.059 12b4 Reusing MANIFEST /home/sgc/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/03/09-13:28:28.060 12b4 Recovering log #34
+2023/03/09-13:28:28.074 12b4 Reusing old log /home/sgc/.config/google-chrome/Default/Sync Data/LevelDB/000034.log 
+2023/03/09-13:28:59.881 12a6 Level-0 table #38: started
+2023/03/09-13:28:59.896 12a6 Level-0 table #38: 110408 bytes OK
+2023/03/09-13:28:59.901 12a6 Delete type=0 #34
+2023/03/09-13:52:34.130 12a6 Level-0 table #40: started
+2023/03/09-13:52:34.133 12a6 Level-0 table #40: 99571 bytes OK
+2023/03/09-13:52:34.134 12a6 Delete type=0 #37
+2023/03/09-13:52:34.134 12a6 Compacting 4@0 + 1@1 files
+2023/03/09-13:52:34.147 12a6 Generated table #41@0: 297 keys, 41935 bytes
+2023/03/09-13:52:34.147 12a6 Compacted 4@0 + 1@1 files => 41935 bytes
+2023/03/09-13:52:34.148 12a6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/09-13:52:34.148 12a6 Delete type=2 #32
+2023/03/09-13:52:34.148 12a6 Delete type=2 #35
+2023/03/09-13:52:34.148 12a6 Delete type=2 #29
+2023/03/09-13:52:34.148 12a6 Delete type=2 #40
+2023/03/09-13:52:34.148 12a6 Delete type=2 #38

@@ -1,0 +1,21 @@
+button#link-to-source {
+    background-color: rgb(32, 33, 36);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 14px;
+    margin: 10px 0px 0px 0px;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    height: 36px;
+    padding: 0px 24px;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+button#link-to-source:hover {
+    box-shadow: gray 0px 0px 5px;
+}

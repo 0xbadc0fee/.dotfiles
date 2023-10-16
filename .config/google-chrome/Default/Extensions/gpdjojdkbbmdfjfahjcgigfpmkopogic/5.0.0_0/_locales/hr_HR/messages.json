@@ -1,0 +1,138 @@
+{
+   "addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Tajni"
+   },
+   "addSection": {
+      "description": "label to add section",
+      "message": "Dodaj sekciju"
+   },
+   "allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Sve ploče"
+   },
+   "authHelpBody": {
+      "description": "If you're not signed in, here's what we'll do when you click the button below",
+      "message": "Izgleda da niste prijavljeni na Pinterest. Popravimo to!"
+   },
+   "authHelpHead": {
+      "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!",
+      "message": "Psst!"
+   },
+   "boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Spremi na ploču"
+   },
+   "boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Spremljeno na"
+   },
+   "chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Odaberi ploču"
+   },
+   "choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Spremite ideju na Pinterestu"
+   },
+   "choosePinSelectAllSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Odaberite do dvadeset slika"
+   },
+   "chooseSection": {
+      "description": "label for board sections",
+      "message": "Odaberi sekciju"
+   },
+   "closeAddForm": {
+      "description": "cancel create",
+      "message": "Otkaži"
+   },
+   "createBoard": {
+      "description": "header in Create form",
+      "message": "Izradi ploču"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Spremite svoje omiljene ideje kako biste im se kasnije mogli lako vratiti."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Gumb Spremi na Pinterestu"
+   },
+   "help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Pomoć"
+   },
+   "msgBoardFail": {
+      "description": "board create fail",
+      "message": "Nije moguće izraditi novu ploču"
+   },
+   "msgHelp": {
+      "description": "get help button",
+      "message": "Potražite pomoć"
+   },
+   "msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Žao nam je, nešto nije u redu. Provjerite jeste li prijavljeni na Pinterest i pokušajte ponovno."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Ups!"
+   },
+   "msgPinFail": {
+      "description": "pin create fail",
+      "message": "Nije moguće spremiti ovu stranicu"
+   },
+   "nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Sljedeće"
+   },
+   "noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Žao nam je, označavanje pinom nije dopušteno s ove domene. Obratite se voditelju stranice ako imate pitanja."
+   },
+   "optNo": {
+      "description": "switch option no",
+      "message": "Ne"
+   },
+   "optYes": {
+      "description": "switch option yes",
+      "message": "Da"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Sakrij držanje iznad gumba Spremi"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Opcije gumba Spremi"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Spremi"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Pretraži"
+   },
+   "selectAll": {
+      "description": "Text next to the checkbox that selects all images on the grid",
+      "message": "Odaberi sve"
+   },
+   "signIn": {
+      "description": "Click this button to sign in on Pinterest",
+      "message": "Prijavite se"
+   },
+   "submitAddForm": {
+      "description": "create new board",
+      "message": "Izradite"
+   },
+   "topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Najbolji odabir"
+   },
+   "visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Posjetite"
+   }
+}

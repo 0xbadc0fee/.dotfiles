@@ -1,0 +1,138 @@
+{
+   "addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Geheim"
+   },
+   "addSection": {
+      "description": "label to add section",
+      "message": "Voeg afdeling by"
+   },
+   "allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Alle borde"
+   },
+   "authHelpBody": {
+      "description": "If you're not signed in, here's what we'll do when you click the button below",
+      "message": "Dit lyk asof jy nie by Pinterest aangemeld is nie. Kom ons maak dit reg!"
+   },
+   "authHelpHead": {
+      "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!",
+      "message": "Psst!"
+   },
+   "boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Stoor op bord"
+   },
+   "boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Gestoor na"
+   },
+   "chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Kies bord"
+   },
+   "choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Stoor 'n idee op Pinterest"
+   },
+   "choosePinSelectAllSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Kies tot twintig beelde"
+   },
+   "chooseSection": {
+      "description": "label for board sections",
+      "message": "Kies afdeling"
+   },
+   "closeAddForm": {
+      "description": "cancel create",
+      "message": "Kanselleer"
+   },
+   "createBoard": {
+      "description": "header in Create form",
+      "message": "Skep bord"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Stoor jou gunstelingidees aanlyn sodat jy later maklik daarna kan terugkeer."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Pinterest-stoorknoppie"
+   },
+   "help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Help"
+   },
+   "msgBoardFail": {
+      "description": "board create fail",
+      "message": "Kon nie nuwe bord skep nie"
+   },
+   "msgHelp": {
+      "description": "get help button",
+      "message": "Kry hulp"
+   },
+   "msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Jammer, iets is nie heeltemal reg hier nie. Maak asseblief seker dat jy by Pinterest aangemeld is en probeer weer."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Oeps!"
+   },
+   "msgPinFail": {
+      "description": "pin create fail",
+      "message": "Kon nie hierdie bladsy stoor nie"
+   },
+   "nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Volgende"
+   },
+   "noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Jammer, Pin-ery word nie uit hierdie domein toegelaat nie. Kontak asseblief die webwerfoperateur as jy enige vrae het."
+   },
+   "optNo": {
+      "description": "switch option no",
+      "message": "Nee"
+   },
+   "optYes": {
+      "description": "switch option yes",
+      "message": "Ja"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Versteek swewende stoorknoppies"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Stoorknoppie-opsies"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Stoor"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Soek"
+   },
+   "selectAll": {
+      "description": "Text next to the checkbox that selects all images on the grid",
+      "message": "Kies alles"
+   },
+   "signIn": {
+      "description": "Click this button to sign in on Pinterest",
+      "message": "Meld aan"
+   },
+   "submitAddForm": {
+      "description": "create new board",
+      "message": "Skep"
+   },
+   "topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Top keuses"
+   },
+   "visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Besoek"
+   }
+}

@@ -1,0 +1,6 @@
+2023/03/09-13:28:30.473 12a6 Reusing MANIFEST /home/sgc/.config/google-chrome/Default/IndexedDB/chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/09-13:28:30.473 12a6 Recovering log #3
+2023/03/09-13:28:30.499 12a6 Reusing old log /home/sgc/.config/google-chrome/Default/IndexedDB/chrome-extension_hdokiejnpimakedhajhdlcegeplioahd_0.indexeddb.leveldb/000003.log 
+2023/03/09-13:28:31.653 12a7 Level-0 table #5: started
+2023/03/09-13:28:31.710 12a7 Level-0 table #5: 3098081 bytes OK
+2023/03/09-13:28:31.719 12a7 Delete type=0 #3

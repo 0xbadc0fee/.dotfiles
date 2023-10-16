@@ -1,0 +1,20 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "https://www.kaggle.com/code/*", "https://www.kaggleusercontent.com/*" ],
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAztSMG46pMy/iHfAhZgn2RnXiHt59CGqRGY1nKzaCwysIi5jl2k8tBswB4c7iUVnBYMqvKqMRAermzwqZjmeRiEC/CUPYFWeE9h69Lm8qV3ys5q+VXrfZ5nCg2TDkjBKHhRwXerS9iNoikRNplKb3MKkk0IzAFY1eng8KdOE7KAkxHi7wUmcH6pTONQQiTBZ9S55yMSVs09THCxUtOqhDlPzjhBYsISt8M24WV7BFE5KEX/RaYx1DSk+U7eylq1SSZenyBPxqkFF39mUIUFjvbjuotOj1GEcBXNWQPl6TM96ZFxgMHkwUNfTx5uUKQVNUCDrlYDTJJtqIK8SLSisXrwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "tabs", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.0"
+}

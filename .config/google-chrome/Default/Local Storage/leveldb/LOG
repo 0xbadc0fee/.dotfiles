@@ -1,0 +1,18 @@
+2023/03/09-13:28:28.041 3 Reusing MANIFEST /home/sgc/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/09-13:28:28.054 3 Recovering log #62
+2023/03/09-13:28:28.057 3 Reusing old log /home/sgc/.config/google-chrome/Default/Local Storage/leveldb/000062.log 
+2023/03/09-13:28:37.770 3 Level-0 table #66: started
+2023/03/09-13:28:37.775 3 Level-0 table #66: 65448 bytes OK
+2023/03/09-13:28:37.777 3 Delete type=0 #62
+2023/03/09-13:28:37.777 5 Compacting 4@0 + 1@1 files
+2023/03/09-13:28:37.781 5 Generated table #67@0: 370 keys, 115906 bytes
+2023/03/09-13:28:37.781 5 Compacted 4@0 + 1@1 files => 115906 bytes
+2023/03/09-13:28:37.783 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/09-13:28:37.783 5 Delete type=2 #55
+2023/03/09-13:28:37.783 5 Delete type=2 #63
+2023/03/09-13:28:37.783 5 Delete type=2 #57
+2023/03/09-13:28:37.783 5 Delete type=2 #60
+2023/03/09-13:28:37.783 5 Delete type=2 #66
+2023/03/09-13:53:58.138 3 Level-0 table #69: started
+2023/03/09-13:53:58.156 3 Level-0 table #69: 42129 bytes OK
+2023/03/09-13:53:58.161 3 Delete type=0 #65

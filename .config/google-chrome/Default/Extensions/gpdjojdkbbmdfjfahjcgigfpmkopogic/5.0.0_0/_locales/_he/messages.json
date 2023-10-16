@@ -1,0 +1,138 @@
+{
+  "extName": {
+    "message": "לחצן 'שמירה' של Pinterest",
+    "description": "The extension's title, seen in gallery and extensions page"
+  },
+  "extDescription": {
+    "message": "שמרו את הרעיונות האהובים עליכם באופן מקוון כדי שתוכלו לחזור אליהם בקלות בהמשך.",
+    "description": "The extension's description, seen in gallery and extensions page"
+  },
+  "noPinDomain": {
+    "message": "מצטערים, לא ניתן ליצור סיכות Pin מתחום זה. צרו קשר עם מפעיל האתר אם יש לכם שאלות.",
+    "description": "The default message we alert when someone tries to use the browser button on a forbidden domain"
+  },
+  "optionTitle": {
+    "message": "אפשרויות לחצן 'שמירה'",
+    "description": "Title for the Options page"
+  },
+  "optionHide": {
+    "message": "הסתירו ריחוף מעל לחצני 'שמירה'",
+    "description": "Text next to the checkbox that turns off hoverbuttons"
+  },
+  "searchAction": {
+    "message": "חיפוש",
+    "description": "Appears in the right-click-to-search menu item"
+  },
+  "saveAction": {
+    "message": "שמירה",
+    "description": "Appears wherever we show a Save button or menu prompt"
+  },
+  "choosePinMultiSelectHeader": {
+    "message": "שמרו רעיון ב-Pinterest",
+    "description": "New header message in the image picker overlay"
+  },
+  "choosePinSelectAllSubHeader": {
+    "message": "בחרו עד עשרים תמונות",
+    "description": "Subheader in the image picker overlay"
+  },
+  "nextAction": {
+    "message": "הבא",
+    "description": "Press this button to go to the Create view when multiple images are selected"
+  },
+  "selectAll": {
+    "message": "בחירת הכול",
+    "description": "Text next to the checkbox that selects all images on the grid"
+  },
+  "boardPickerOpenerLabel": {
+    "message": "שמירה בלוח",
+    "description": "Label in inline board picker"
+  },
+  "boardPickerSuccessLabel": {
+    "message": "נשמר ב-",
+    "description": "Label in inline board picker after pin creation"
+  },
+  "visitButton": {
+    "message": "בקרו",
+    "description": "Pin create success button to visit pin"
+  },
+  "help": {
+    "message": "עזרה",
+    "description": "Get help after a Pin create failure"
+  },
+  "chooseBoard": {
+    "message": "בחרו לוח",
+    "description": "main header in Save form"
+  },
+  "topChoices": {
+    "message": "בחירות מובילות",
+    "description": "interstitial header in board list"
+  },
+  "allBoards": {
+    "message": "כל הלוחות",
+    "description": "interstitial header in board list"
+  },
+  "createBoard": {
+    "message": "צרו לוח",
+    "description": "header in Create form"
+  },
+  "addFormSecretLabel": {
+    "message": "סוד",
+    "description": "label over secret/not-secret switch"
+  },
+  "chooseSection": {
+    "message": "בחירת מקטע",
+    "description": "label for board sections"
+  },
+  "addSection": {
+    "message": "הוספת מקטע",
+    "description": "label to add section"
+  },
+  "optYes": {
+    "message": "כן",
+    "description": "switch option yes"
+  },
+  "optNo": {
+    "message": "לא",
+    "description": "switch option no"
+  },
+  "closeAddForm": {
+    "message": "ביטול",
+    "description": "cancel create"
+  },
+  "submitAddForm": {
+    "message": "צרו",
+    "description": "create new board"
+  },
+  "msgBoardFail": {
+    "message": "לא ניתן ליצור לוח חדש",
+    "description": "board create fail"
+  },
+  "msgPinFail": {
+    "message": "לא ניתן לשמור דף זה",
+    "description": "pin create fail"
+  },
+  "msgLoginFail": {
+    "message": "מצטערים, משהו לא בסדר. בדקו שאתם מחוברים ל-Pinterest ונסו שוב.",
+    "description": "Message shown when someone's login changes while the board picker is open"
+  },
+  "msgOops": {
+    "message": "אופס!",
+    "description": "error header"
+  },
+  "msgHelp": {
+    "message": "קבלת עזרה",
+    "description": "get help button"
+  },
+  "authHelpHead": {
+    "message": "פסססט!",
+    "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!"
+  },
+  "authHelpBody": {
+    "message": "נראה שאתם לא מחוברים ל-Pinterest. בואו נשנה את זה!",
+    "description": "If you're not signed in, here's what we'll do when you click the button below"
+  },
+  "signIn": {
+    "message": "היכנסו",
+    "description": "Click this button to sign in on Pinterest"
+  }
+}

@@ -1,0 +1,138 @@
+{
+   "addFormSecretLabel": {
+      "description": "label over secret/not-secret switch",
+      "message": "Тайни"
+   },
+   "addSection": {
+      "description": "label to add section",
+      "message": "Добавяне на раздел"
+   },
+   "allBoards": {
+      "description": "interstitial header in board list",
+      "message": "Всички табла"
+   },
+   "authHelpBody": {
+      "description": "If you're not signed in, here's what we'll do when you click the button below",
+      "message": "Изглежда, не сте влезли в Pinterest. Да поправим това!"
+   },
+   "authHelpHead": {
+      "description": "You're not signed in. Let's get your attention with this headline. Might also be Hey! or Oops!",
+      "message": "Съжаляваме!"
+   },
+   "boardPickerOpenerLabel": {
+      "description": "Label in inline board picker",
+      "message": "Запазване в табло"
+   },
+   "boardPickerSuccessLabel": {
+      "description": "Label in inline board picker after pin creation",
+      "message": "Запазено в"
+   },
+   "chooseBoard": {
+      "description": "main header in Save form",
+      "message": "Избор на табло"
+   },
+   "choosePinMultiSelectHeader": {
+      "description": "New header message in the image picker overlay",
+      "message": "Запазете идея в Pinterest"
+   },
+   "choosePinSelectAllSubHeader": {
+      "description": "Subheader in the image picker overlay",
+      "message": "Изберете до двадесет изображения"
+   },
+   "chooseSection": {
+      "description": "label for board sections",
+      "message": "Избор на раздел"
+   },
+   "closeAddForm": {
+      "description": "cancel create",
+      "message": "Отмяна"
+   },
+   "createBoard": {
+      "description": "header in Create form",
+      "message": "Създаване на табло"
+   },
+   "extDescription": {
+      "description": "The extension's description, seen in gallery and extensions page",
+      "message": "Запазете любимите си идеи онлайн, за да се върнете лесно към тях по-късно."
+   },
+   "extName": {
+      "description": "The extension's title, seen in gallery and extensions page",
+      "message": "Бутон за запазване в Pinterest"
+   },
+   "help": {
+      "description": "Get help after a Pin create failure",
+      "message": "Помощ"
+   },
+   "msgBoardFail": {
+      "description": "board create fail",
+      "message": "Неуспешно създаване на ново табло"
+   },
+   "msgHelp": {
+      "description": "get help button",
+      "message": "Получаване на помощ"
+   },
+   "msgLoginFail": {
+      "description": "Message shown when someone's login changes while the board picker is open",
+      "message": "Съжаляваме, нещо не е съвсем наред тук. Проверете дали сте влезли в Pinterest и опитайте отново."
+   },
+   "msgOops": {
+      "description": "error header",
+      "message": "Грешка!"
+   },
+   "msgPinFail": {
+      "description": "pin create fail",
+      "message": "Неуспешно запазване на тази страница"
+   },
+   "nextAction": {
+      "description": "Press this button to go to the Create view when multiple images are selected",
+      "message": "Напред"
+   },
+   "noPinDomain": {
+      "description": "The default message we alert when someone tries to use the browser button on a forbidden domain",
+      "message": "Съжаляваме, закачането не е позволено за този домейн. Свържете се с оператора на сайта, ако имате някакви въпроси."
+   },
+   "optNo": {
+      "description": "switch option no",
+      "message": "Не"
+   },
+   "optYes": {
+      "description": "switch option yes",
+      "message": "Да"
+   },
+   "optionHide": {
+      "description": "Text next to the checkbox that turns off hoverbuttons",
+      "message": "Скриване на посочването на бутоните за запазване"
+   },
+   "optionTitle": {
+      "description": "Title for the Options page",
+      "message": "Опции на бутона за запазване"
+   },
+   "saveAction": {
+      "description": "Appears wherever we show a Save button or menu prompt",
+      "message": "Запазване"
+   },
+   "searchAction": {
+      "description": "Appears in the right-click-to-search menu item",
+      "message": "Търсене"
+   },
+   "selectAll": {
+      "description": "Text next to the checkbox that selects all images on the grid",
+      "message": "Избор на всички"
+   },
+   "signIn": {
+      "description": "Click this button to sign in on Pinterest",
+      "message": "Влизане"
+   },
+   "submitAddForm": {
+      "description": "create new board",
+      "message": "Създаване"
+   },
+   "topChoices": {
+      "description": "interstitial header in board list",
+      "message": "Най-предпочитани"
+   },
+   "visitButton": {
+      "description": "Pin create success button to visit pin",
+      "message": "Посещаване"
+   }
+}
