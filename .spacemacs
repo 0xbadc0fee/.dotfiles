@@ -27,24 +27,26 @@ This function should only modify configuration layer settings."
    dotspacemacs-ask-for-lazy-installation t
 
    ;; List of additional paths where to look for configuration layers.
-   ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
+   ;; Paths must have a trailing slash (i.e. "~/.mycontribs/")
    dotspacemacs-configuration-layer-path '()
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(markdown
+   '(html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
      ;; `M-m f e R' (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     auto-completion
+     ;; auto-completion
      ;; better-defaults
      emacs-lisp
-     ;; git
+     git
      helm
-     c-c++
      ;; lsp
+     ;;websocket
+     ;;simple-httpd
+     ;;f
      ;; markdown
      multiple-cursors
      ;; org
@@ -54,7 +56,11 @@ This function should only modify configuration layer settings."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
-     treemacs)
+     shell
+     treemacs
+     (org :variables org-enable-roam-support t)
+     (org :variables org-enable-roam-ui t)
+     )
 
 
    ;; List of additional packages that will be installed without being wrapped
@@ -65,7 +71,11 @@ This function should only modify configuration layer settings."
    ;; `dotspacemacs/user-config'. To use a local version of a package, use the
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+                                      websocket
+                                      simple-httpd
+                                      olivetti
+                                      )
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -258,7 +268,7 @@ It should only modify the values of Spacemacs settings."
    ;; a non-negative integer (pixel size), or a floating-point (point size).
    ;; Point size is recommended, because it's device independent. (default 10.0)
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 18.0
+                               :size 10.0
                                :weight normal
                                :width normal)
 
@@ -569,7 +579,25 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-)
+  (use-package org-roam
+    :ensure t
+    :load-path "/root/org-roam"
+    :init
+    (setq org-roam-v2-ack t)
+    :custom
+    (org-roam-directory "~/Roamnotes") ; replace with your path
+    (org-roam_completion-everywhere t)
+    :bind (("C-c n l" . org-roam-buffer-toggle)
+           ("C-c n f" . org-roam-node-find)
+           ("C-c n i" . org-roam-node-insert)
+           :map org-mode-map
+           ("C-M-i"   . completion-at-point))
+                                           ; global-page-break-lines-mode will break the org-roam buffer
+    :hook ( org-roam-mode . (lambda () (global-page-break-lines-mode -1)))
+    :config
+    (org-roam-setup))
+
+  )
 
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -584,10 +612,10 @@ This function is called at the very end of Spacemacs initialization."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(evil-want-Y-yank-to-eol nil)
- '(org-export-backends '(ascii html icalendar latex md odt))
+ '(org-safe-remote-resources
+   '("\\`https://drojas\\.github\\.io\\(?:/\\|\\'\\)" "\\`https://fniessen\\.github\\.io\\(?:/\\|\\'\\)"))
  '(package-selected-packages
-   '(company-emoji emoji-cheat-sheet-plus gh-md markdown-toc markdown-mode mmm-mode valign vmd-mode yasnippet-snippets ws-butler writeroom-mode winum which-key volatile-highlights vim-powerline vi-tilde-fringe uuidgen use-package undo-tree treemacs-projectile treemacs-persp treemacs-icons-dired treemacs-evil toc-org term-cursor symon symbol-overlay string-inflection string-edit-at-point spacemacs-whitespace-cleanup spacemacs-purpose-popwin spaceline-all-the-icons space-doc restart-emacs rainbow-delimiters quickrun popwin pcre2el password-generator paradox overseer org-superstar open-junk-file nameless multi-line macrostep lorem-ipsum link-hint inspector info+ indent-guide hybrid-mode hungry-delete holy-mode hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-xref helm-themes helm-swoop helm-rtags helm-purpose helm-projectile helm-org helm-mode-manager helm-make helm-descbinds helm-company helm-c-yasnippet helm-ag google-translate google-c-style golden-ratio gendoxy fuzzy font-lock+ flycheck-package flycheck-elsa flx-ido fancy-battery eyebrowse expand-region evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-textobj-line evil-surround evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-lion evil-indent-plus evil-iedit-state evil-goggles evil-exchange evil-evilified-state evil-escape evil-easymotion evil-collection evil-cleverparens evil-args evil-anzu eval-sexp-fu emr elisp-slime-nav elisp-def editorconfig dumb-jump drag-stuff dotenv-mode disaster dired-quick-sort diminish devdocs define-word cpp-auto-include company-ycmd company-rtags company-c-headers column-enforce-mode clean-aindent-mode centered-cursor-mode auto-yasnippet auto-highlight-symbol auto-compile aggressive-indent ace-link ace-jump-helm-line ac-ispell)))
+   '(esh-help eshell-prompt-extras eshell-z multi-term multi-vterm xref shell-pop terminal-here vterm xterm-color olivetti add-node-modules-path company-web web-completion-data company counsel-css counsel swiper ivy emmet-mode helm-css-scss impatient-mode prettier-js pug-mode sass-mode haml-mode scss-mode slim-mode tagedit web-beautify web-mode yasnippet evil-org gnuplot helm-org-rifle htmlize org-cliplink org-contrib org-download org-mime org-pomodoro alert log4e gntp org-present org-projectile org-project-capture org-category-capture org-rich-yank orgit-forge orgit org org-roam-ui fsm simple-httpd websocket org-roam forge yaml markdown-mode ghub closql emacsql treepy git-link git-messenger git-modes git-timemachine gitignore-templates helm-git-grep helm-ls-git smeargle treemacs-magit magit magit-section git-commit with-editor transient seq ws-butler writeroom-mode winum which-key volatile-highlights vim-powerline vi-tilde-fringe uuidgen use-package undo-tree treemacs-projectile treemacs-persp treemacs-icons-dired treemacs-evil toc-org term-cursor symon symbol-overlay string-inflection string-edit-at-point spacemacs-whitespace-cleanup spacemacs-purpose-popwin spaceline space-doc restart-emacs request rainbow-delimiters quickrun popwin pcre2el password-generator paradox overseer org-superstar open-junk-file nameless multi-line macrostep lorem-ipsum link-hint inspector info+ indent-guide hybrid-mode hungry-delete holy-mode hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt helm-xref helm-themes helm-swoop helm-purpose helm-projectile helm-org helm-mode-manager helm-make helm-descbinds helm-ag google-translate golden-ratio flycheck-package flycheck-elsa flx-ido fancy-battery eyebrowse expand-region evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-textobj-line evil-surround evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-lion evil-indent-plus evil-iedit-state evil-goggles evil-exchange evil-evilified-state evil-escape evil-easymotion evil-collection evil-cleverparens evil-args evil-anzu eval-sexp-fu emr elisp-slime-nav elisp-def editorconfig dumb-jump drag-stuff dotenv-mode dired-quick-sort diminish devdocs define-word column-enforce-mode clean-aindent-mode centered-cursor-mode auto-highlight-symbol auto-compile all-the-icons aggressive-indent ace-link ace-jump-helm-line)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
